@@ -1,0 +1,2 @@
+target 'TournamakeIos'
+pod 'Firebase'

@@ -15,7 +15,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         var loginButton : FBSDKLoginButton = FBSDKLoginButton()
+        loginButton.readPermissions = ["public_profile", "email"];
         loginButton.center = self.view.center;
+        if let currentToken = FBSDKAccessToken.current() {
+            print("userID: \(currentToken.userID!)")
+            print("tokenString: \(currentToken.tokenString!)")
+        }
         self.view.addSubview(loginButton);
     }
 

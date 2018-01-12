@@ -17,6 +17,7 @@
 		6D45532F2009655F007200FF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45532E2009655F007200FF /* Bolts.framework */; };
 		6D45533120096581007200FF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45533020096581007200FF /* FBSDKCoreKit.framework */; };
 		6D45533320096590007200FF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45533220096590007200FF /* FBSDKLoginKit.framework */; };
+		96C17D8727B42EC97B3B77AC /* libPods-TournamakeIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B18ABFDDFBAC2024BF6C17 /* libPods-TournamakeIos.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		6D45532E2009655F007200FF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		6D45533020096581007200FF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		6D45533220096590007200FF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		92B18ABFDDFBAC2024BF6C17 /* libPods-TournamakeIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TournamakeIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CD242BB65D0F418F769622 /* Pods-TournamakeIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournamakeIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-TournamakeIos/Pods-TournamakeIos.release.xcconfig"; sourceTree = "<group>"; };
+		E2738E7B6AECD138BA6ECE99 /* Pods-TournamakeIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournamakeIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TournamakeIos/Pods-TournamakeIos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				6D45532F2009655F007200FF /* Bolts.framework in Frameworks */,
 				6D45533120096581007200FF /* FBSDKCoreKit.framework in Frameworks */,
 				6D45533320096590007200FF /* FBSDKLoginKit.framework in Frameworks */,
+				96C17D8727B42EC97B3B77AC /* libPods-TournamakeIos.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				6D455313200962CD007200FF /* TournamakeIosTests */,
 				6D45531E200962CD007200FF /* TournamakeIosUITests */,
 				6D4552FD200962CD007200FF /* Products */,
+				6DF4520B122FB402775C274C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,8 +147,18 @@
 				6D45533220096590007200FF /* FBSDKLoginKit.framework */,
 				6D45533020096581007200FF /* FBSDKCoreKit.framework */,
 				6D45532E2009655F007200FF /* Bolts.framework */,
+				92B18ABFDDFBAC2024BF6C17 /* libPods-TournamakeIos.a */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DF4520B122FB402775C274C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2738E7B6AECD138BA6ECE99 /* Pods-TournamakeIos.debug.xcconfig */,
+				E0CD242BB65D0F418F769622 /* Pods-TournamakeIos.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D455324200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIos" */;
 			buildPhases = (
+				3CF7C5E98A7E279A3B49ABF9 /* [CP] Check Pods Manifest.lock */,
 				6D4552F8200962CD007200FF /* Sources */,
 				6D4552F9200962CD007200FF /* Frameworks */,
 				6D4552FA200962CD007200FF /* Resources */,
+				D224BCA96B8C6476C9CA72A7 /* [CP] Embed Pods Frameworks */,
+				36BAB171E83CAD3DEB77EE5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +292,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BAB171E83CAD3DEB77EE5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TournamakeIos/Pods-TournamakeIos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF7C5E98A7E279A3B49ABF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TournamakeIos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D224BCA96B8C6476C9CA72A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TournamakeIos/Pods-TournamakeIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D4552F8200962CD007200FF /* Sources */ = {
@@ -444,6 +514,7 @@
 		};
 		6D455325200962CD007200FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2738E7B6AECD138BA6ECE99 /* Pods-TournamakeIos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +534,7 @@
 		};
 		6D455326200962CD007200FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CD242BB65D0F418F769622 /* Pods-TournamakeIos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
