@@ -14,6 +14,9 @@
 		6D45530A200962CD007200FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D455308200962CD007200FF /* LaunchScreen.storyboard */; };
 		6D455315200962CD007200FF /* TournamakeIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D455314200962CD007200FF /* TournamakeIosTests.swift */; };
 		6D455320200962CD007200FF /* TournamakeIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45531F200962CD007200FF /* TournamakeIosUITests.swift */; };
+		6D45532F2009655F007200FF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45532E2009655F007200FF /* Bolts.framework */; };
+		6D45533120096581007200FF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45533020096581007200FF /* FBSDKCoreKit.framework */; };
+		6D45533320096590007200FF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45533220096590007200FF /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		6D45531B200962CD007200FF /* TournamakeIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamakeIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D45531F200962CD007200FF /* TournamakeIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamakeIosUITests.swift; sourceTree = "<group>"; };
 		6D455321200962CD007200FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D45532E2009655F007200FF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6D45533020096581007200FF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6D45533220096590007200FF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D45532F2009655F007200FF /* Bolts.framework in Frameworks */,
+				6D45533120096581007200FF /* FBSDKCoreKit.framework in Frameworks */,
+				6D45533320096590007200FF /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +86,7 @@
 		6D4552F3200962CD007200FF = {
 			isa = PBXGroup;
 			children = (
+				6D45532D2009652E007200FF /* Frameworks */,
 				6D4552FE200962CD007200FF /* TournamakeIos */,
 				6D455313200962CD007200FF /* TournamakeIosTests */,
 				6D45531E200962CD007200FF /* TournamakeIosUITests */,
@@ -123,6 +133,16 @@
 				6D455321200962CD007200FF /* Info.plist */,
 			);
 			path = TournamakeIosUITests;
+			sourceTree = "<group>";
+		};
+		6D45532D2009652E007200FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D45533220096590007200FF /* FBSDKLoginKit.framework */,
+				6D45533020096581007200FF /* FBSDKCoreKit.framework */,
+				6D45532E2009655F007200FF /* Bolts.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L897SQDS85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = TournamakeIos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIos;
@@ -443,6 +467,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L897SQDS85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = TournamakeIos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIos;
