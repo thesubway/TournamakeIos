@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D455300200962CD007200FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4552FF200962CD007200FF /* AppDelegate.swift */; };
+		6D455302200962CD007200FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D455301200962CD007200FF /* ViewController.swift */; };
+		6D455305200962CD007200FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D455303200962CD007200FF /* Main.storyboard */; };
+		6D455307200962CD007200FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D455306200962CD007200FF /* Assets.xcassets */; };
+		6D45530A200962CD007200FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D455308200962CD007200FF /* LaunchScreen.storyboard */; };
+		6D455315200962CD007200FF /* TournamakeIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D455314200962CD007200FF /* TournamakeIosTests.swift */; };
+		6D455320200962CD007200FF /* TournamakeIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D45531F200962CD007200FF /* TournamakeIosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D455311200962CD007200FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4552F4200962CD007200FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4552FB200962CD007200FF;
+			remoteInfo = TournamakeIos;
+		};
+		6D45531C200962CD007200FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4552F4200962CD007200FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D4552FB200962CD007200FF;
+			remoteInfo = TournamakeIos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D4552FC200962CD007200FF /* TournamakeIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TournamakeIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4552FF200962CD007200FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D455301200962CD007200FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D455304200962CD007200FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D455306200962CD007200FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D455309200962CD007200FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D45530B200962CD007200FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D455310200962CD007200FF /* TournamakeIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamakeIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D455314200962CD007200FF /* TournamakeIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamakeIosTests.swift; sourceTree = "<group>"; };
+		6D455316200962CD007200FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D45531B200962CD007200FF /* TournamakeIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TournamakeIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D45531F200962CD007200FF /* TournamakeIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamakeIosUITests.swift; sourceTree = "<group>"; };
+		6D455321200962CD007200FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D4552F9200962CD007200FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45530D200962CD007200FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D455318200962CD007200FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4552F3200962CD007200FF = {
+			isa = PBXGroup;
+			children = (
+				6D4552FE200962CD007200FF /* TournamakeIos */,
+				6D455313200962CD007200FF /* TournamakeIosTests */,
+				6D45531E200962CD007200FF /* TournamakeIosUITests */,
+				6D4552FD200962CD007200FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D4552FD200962CD007200FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D4552FC200962CD007200FF /* TournamakeIos.app */,
+				6D455310200962CD007200FF /* TournamakeIosTests.xctest */,
+				6D45531B200962CD007200FF /* TournamakeIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D4552FE200962CD007200FF /* TournamakeIos */ = {
+			isa = PBXGroup;
+			children = (
+				6D4552FF200962CD007200FF /* AppDelegate.swift */,
+				6D455301200962CD007200FF /* ViewController.swift */,
+				6D455303200962CD007200FF /* Main.storyboard */,
+				6D455306200962CD007200FF /* Assets.xcassets */,
+				6D455308200962CD007200FF /* LaunchScreen.storyboard */,
+				6D45530B200962CD007200FF /* Info.plist */,
+			);
+			path = TournamakeIos;
+			sourceTree = "<group>";
+		};
+		6D455313200962CD007200FF /* TournamakeIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D455314200962CD007200FF /* TournamakeIosTests.swift */,
+				6D455316200962CD007200FF /* Info.plist */,
+			);
+			path = TournamakeIosTests;
+			sourceTree = "<group>";
+		};
+		6D45531E200962CD007200FF /* TournamakeIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D45531F200962CD007200FF /* TournamakeIosUITests.swift */,
+				6D455321200962CD007200FF /* Info.plist */,
+			);
+			path = TournamakeIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D4552FB200962CD007200FF /* TournamakeIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D455324200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIos" */;
+			buildPhases = (
+				6D4552F8200962CD007200FF /* Sources */,
+				6D4552F9200962CD007200FF /* Frameworks */,
+				6D4552FA200962CD007200FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TournamakeIos;
+			productName = TournamakeIos;
+			productReference = 6D4552FC200962CD007200FF /* TournamakeIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D45530F200962CD007200FF /* TournamakeIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D455327200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIosTests" */;
+			buildPhases = (
+				6D45530C200962CD007200FF /* Sources */,
+				6D45530D200962CD007200FF /* Frameworks */,
+				6D45530E200962CD007200FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D455312200962CD007200FF /* PBXTargetDependency */,
+			);
+			name = TournamakeIosTests;
+			productName = TournamakeIosTests;
+			productReference = 6D455310200962CD007200FF /* TournamakeIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D45531A200962CD007200FF /* TournamakeIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D45532A200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIosUITests" */;
+			buildPhases = (
+				6D455317200962CD007200FF /* Sources */,
+				6D455318200962CD007200FF /* Frameworks */,
+				6D455319200962CD007200FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D45531D200962CD007200FF /* PBXTargetDependency */,
+			);
+			name = TournamakeIosUITests;
+			productName = TournamakeIosUITests;
+			productReference = 6D45531B200962CD007200FF /* TournamakeIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D4552F4200962CD007200FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Daniel Hoang";
+				TargetAttributes = {
+					6D4552FB200962CD007200FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6D45530F200962CD007200FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D4552FB200962CD007200FF;
+					};
+					6D45531A200962CD007200FF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D4552FB200962CD007200FF;
+					};
+				};
+			};
+			buildConfigurationList = 6D4552F7200962CD007200FF /* Build configuration list for PBXProject "TournamakeIos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D4552F3200962CD007200FF;
+			productRefGroup = 6D4552FD200962CD007200FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D4552FB200962CD007200FF /* TournamakeIos */,
+				6D45530F200962CD007200FF /* TournamakeIosTests */,
+				6D45531A200962CD007200FF /* TournamakeIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D4552FA200962CD007200FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D45530A200962CD007200FF /* LaunchScreen.storyboard in Resources */,
+				6D455307200962CD007200FF /* Assets.xcassets in Resources */,
+				6D455305200962CD007200FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45530E200962CD007200FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D455319200962CD007200FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D4552F8200962CD007200FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D455302200962CD007200FF /* ViewController.swift in Sources */,
+				6D455300200962CD007200FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D45530C200962CD007200FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D455315200962CD007200FF /* TournamakeIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D455317200962CD007200FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D455320200962CD007200FF /* TournamakeIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D455312200962CD007200FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4552FB200962CD007200FF /* TournamakeIos */;
+			targetProxy = 6D455311200962CD007200FF /* PBXContainerItemProxy */;
+		};
+		6D45531D200962CD007200FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D4552FB200962CD007200FF /* TournamakeIos */;
+			targetProxy = 6D45531C200962CD007200FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D455303200962CD007200FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D455304200962CD007200FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D455308200962CD007200FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D455309200962CD007200FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D455322200962CD007200FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D455323200962CD007200FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D455325200962CD007200FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L897SQDS85;
+				INFOPLIST_FILE = TournamakeIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D455326200962CD007200FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L897SQDS85;
+				INFOPLIST_FILE = TournamakeIos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D455328200962CD007200FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L897SQDS85;
+				INFOPLIST_FILE = TournamakeIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TournamakeIos.app/TournamakeIos";
+			};
+			name = Debug;
+		};
+		6D455329200962CD007200FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L897SQDS85;
+				INFOPLIST_FILE = TournamakeIosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TournamakeIos.app/TournamakeIos";
+			};
+			name = Release;
+		};
+		6D45532B200962CD007200FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L897SQDS85;
+				INFOPLIST_FILE = TournamakeIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TournamakeIos;
+			};
+			name = Debug;
+		};
+		6D45532C200962CD007200FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L897SQDS85;
+				INFOPLIST_FILE = TournamakeIosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TournamakeIosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TournamakeIos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D4552F7200962CD007200FF /* Build configuration list for PBXProject "TournamakeIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D455322200962CD007200FF /* Debug */,
+				6D455323200962CD007200FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D455324200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D455325200962CD007200FF /* Debug */,
+				6D455326200962CD007200FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D455327200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D455328200962CD007200FF /* Debug */,
+				6D455329200962CD007200FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D45532A200962CD007200FF /* Build configuration list for PBXNativeTarget "TournamakeIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D45532B200962CD007200FF /* Debug */,
+				6D45532C200962CD007200FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D4552F4200962CD007200FF /* Project object */;
+}
