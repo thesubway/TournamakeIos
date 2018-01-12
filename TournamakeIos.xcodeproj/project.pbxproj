@@ -17,6 +17,7 @@
 		6D45532F2009655F007200FF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45532E2009655F007200FF /* Bolts.framework */; };
 		6D45533120096581007200FF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45533020096581007200FF /* FBSDKCoreKit.framework */; };
 		6D45533320096590007200FF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D45533220096590007200FF /* FBSDKLoginKit.framework */; };
+		6D455335200972ED007200FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D455334200972ED007200FF /* GoogleService-Info.plist */; };
 		96C17D8727B42EC97B3B77AC /* libPods-TournamakeIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B18ABFDDFBAC2024BF6C17 /* libPods-TournamakeIos.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		6D45532E2009655F007200FF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		6D45533020096581007200FF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		6D45533220096590007200FF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6D455334200972ED007200FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		92B18ABFDDFBAC2024BF6C17 /* libPods-TournamakeIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TournamakeIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CD242BB65D0F418F769622 /* Pods-TournamakeIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournamakeIos.release.xcconfig"; path = "Pods/Target Support Files/Pods-TournamakeIos/Pods-TournamakeIos.release.xcconfig"; sourceTree = "<group>"; };
 		E2738E7B6AECD138BA6ECE99 /* Pods-TournamakeIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TournamakeIos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TournamakeIos/Pods-TournamakeIos.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				6D455303200962CD007200FF /* Main.storyboard */,
 				6D455306200962CD007200FF /* Assets.xcassets */,
 				6D455308200962CD007200FF /* LaunchScreen.storyboard */,
+				6D455334200972ED007200FF /* GoogleService-Info.plist */,
 				6D45530B200962CD007200FF /* Info.plist */,
 			);
 			path = TournamakeIos;
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D45530A200962CD007200FF /* LaunchScreen.storyboard in Resources */,
+				6D455335200972ED007200FF /* GoogleService-Info.plist in Resources */,
 				6D455307200962CD007200FF /* Assets.xcassets in Resources */,
 				6D455305200962CD007200FF /* Main.storyboard in Resources */,
 			);
