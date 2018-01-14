@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+//        let nav1 = UINavigationController(rootViewController: self.window!.rootViewController!)
+//        self.window!.rootViewController = nav1
         return true
     }
     

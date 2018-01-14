@@ -24,14 +24,23 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         loginButton.delegate = self
         loginButton.readPermissions = ["public_profile", "email"];
         loginButton.center = self.view.center;
-        if let currentToken = FBSDKAccessToken.current() {
-            print("userID: \(currentToken.userID!)")
-            print("tokenString: \(currentToken.tokenString!)")
-        }
         self.view.addSubview(loginButton);
         
         //create refs
         self.ref = Database.database().reference()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if let currentToken = FBSDKAccessToken.current() {
+            //user is already logged in
+            self.goToTournamentsVC()
+        }
+    }
+    
+    func goToTournamentsVC() {
+        let tournamentsVC = self.storyboard?.instantiateViewController(withIdentifier: "tournamentsVC") as! TournamentsViewController
+        self.navigationController?.pushViewController(tournamentsVC, animated: true)
     }
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
@@ -68,6 +77,9 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func buttonPressed(_ sender: Any) {
+        self.goToTournamentsVC()
+    }
+    
 }
 
