@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '52F1E738B541EF49F1B3419E2510B542'
+               BlueprintIdentifier = 'DBB924CC539CB85A3AA0975B848B0674'
                BlueprintName = 'Pods-TournamakeIos'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-TournamakeIos.a'>
