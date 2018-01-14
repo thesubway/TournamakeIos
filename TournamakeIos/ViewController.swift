@@ -10,9 +10,12 @@ import UIKit
 import FBSDKLoginKit
 import FBSDKCoreKit
 import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
+    var ref: DatabaseReference!
+    var tournamentRef : DatabaseReference!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +29,9 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             print("tokenString: \(currentToken.tokenString!)")
         }
         self.view.addSubview(loginButton);
+        
+        //create refs
+        self.ref = Database.database().reference()
     }
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
@@ -42,6 +48,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             // User is signed in
             // ...
             var userEmail = user!.email
+            self.ref.child("users").child(user!.uid).setValue(["email": userEmail])
         }
     
     }
