@@ -7,13 +7,18 @@
 //
 
 import UIKit
+import FBSDKLoginKit
+import FBSDKCoreKit
+import Firebase
+import FirebaseAuth
 
 class CreateTournamentViewController: UIViewController {
 
+    var ref: DatabaseReference!
     @IBOutlet weak var tournamentNameTF: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.ref = Database.database().reference()
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +28,8 @@ class CreateTournamentViewController: UIViewController {
     
     @IBAction func nextPressed(_ sender: Any) {
         print(tournamentNameTF.text!)
+        //UserDefaults.standard.set(user!.uid, forKey: "uid")
+        self.ref.child("users").child(UserDefaults.standard.string(forKey: "uid")!).setValue(["tournamentName": tournamentNameTF.text!])
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
