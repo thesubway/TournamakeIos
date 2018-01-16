@@ -46,7 +46,8 @@ class TournamentsViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     @IBAction func addPressed(_ sender: Any) {
-        print("add pressed")
+        let createTournamentVC = self.storyboard?.instantiateViewController(withIdentifier: "createTournamentVC") as! CreateTournamentViewController
+        self.navigationController?.pushViewController(createTournamentVC, animated: true)
     }
     
 }
