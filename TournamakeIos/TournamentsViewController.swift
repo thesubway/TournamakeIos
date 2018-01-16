@@ -44,5 +44,9 @@ class TournamentsViewController: UIViewController, FBSDKLoginButtonDelegate {
             print ("Firebase Error signing out: %@", signOutError)
         }
     }
-
+    
+    @IBAction func addPressed(_ sender: Any) {
+        print("add pressed")
+    }
+    
 }

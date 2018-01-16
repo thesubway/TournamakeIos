@@ -43,13 +43,32 @@
                     <view key="view" contentMode="scaleToFill" id="eCj-RP-XQW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4z-Ku-ws6">
+                                <rect key="frame" x="37" y="142" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="bJe-PK-E7F"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="MRR-eK-04C">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ugr-zy-QZr">
+                            <connections>
+                                <action selector="addPressed:" destination="nJW-4C-FA7" id="FN9-wG-cNm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4os-Q8-w2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1132" y="132.68365817091455"/>
+            <point key="canvasLocation" x="1212" y="133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vIf-OH-nCV">
