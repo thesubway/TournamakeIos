@@ -57,7 +57,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             // User is signed in
             // ...
             var userEmail = user!.email
-            self.ref.child("users").child(user!.uid).setValue(["email": userEmail])
+            self.ref.child("users").child(user!.uid).updateChildValues(["email": userEmail])
             let defaults = UserDefaults.standard.set(user!.uid, forKey: "uid")
         }
     

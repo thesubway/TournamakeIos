@@ -29,7 +29,8 @@ class CreateTournamentViewController: UIViewController {
     @IBAction func nextPressed(_ sender: Any) {
         print(tournamentNameTF.text!)
         //UserDefaults.standard.set(user!.uid, forKey: "uid")
-        self.ref.child("users").child(UserDefaults.standard.string(forKey: "uid")!).setValue(["tournamentName": tournamentNameTF.text!])
+        //self.ref.child("users").child(UserDefaults.standard.string(forKey: "uid")!).setValue(["tournamentName": tournamentNameTF.text!])
+        self.ref.child("users").child(UserDefaults.standard.string(forKey: "uid")!).updateChildValues(["tournamentName": tournamentNameTF.text!])
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
